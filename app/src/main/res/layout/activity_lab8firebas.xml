@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lab8.lab8firebas">
+
+    <EditText
+        android:id="@+id/l8_edt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/l8_edt_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l8_edt_name" />
+
+    <Button
+        android:id="@+id/l8_btn_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:onClick="registerFB"
+        android:text="REG_firebase"
+        app:layout_constraintStart_toStartOf="@+id/l8_edt_pass"
+        app:layout_constraintTop_toBottomOf="@+id/l8_edt_pass" />
+
+    <TextView
+        android:id="@+id/l8_tv_kq"
+        android:layout_width="101dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="108dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l8_btn_reg" />
+
+    <Button
+        android:id="@+id/l8_btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="56dp"
+        android:text="LOGIN"
+        android:onClick="Loginfirebase"
+        app:layout_constraintStart_toEndOf="@+id/l8_btn_reg"
+        app:layout_constraintTop_toBottomOf="@+id/l8_edt_pass" />
+
+    <Button
+        android:id="@+id/l8_btn_insertarray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="InsertArray"
+        android:onClick="insertArray"
+        app:layout_constraintStart_toStartOf="@+id/l8_btn_reg"
+        app:layout_constraintTop_toBottomOf="@+id/l8_btn_reg" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Insertappend"
+        android:onClick="insert_append"
+        app:layout_constraintStart_toEndOf="@+id/l8_btn_insertarray"
+        app:layout_constraintTop_toTopOf="@+id/l8_btn_insertarray" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

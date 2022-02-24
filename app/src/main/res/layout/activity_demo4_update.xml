@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lab41.demo4Update">
+
+    <EditText
+        android:id="@+id/edt_pid41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+   android:hint="Nhap pid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_name41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Nhập name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/edt_pid41"
+        app:layout_constraintTop_toBottomOf="@+id/edt_pid41" />
+
+    <EditText
+        android:id="@+id/edt_price41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nhập price"
+        app:layout_constraintStart_toStartOf="@+id/edt_name41"
+        app:layout_constraintTop_toBottomOf="@+id/edt_name41" />
+
+    <EditText
+        android:id="@+id/edt_des41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nhập des"
+        app:layout_constraintStart_toStartOf="@+id/edt_price41"
+        app:layout_constraintTop_toBottomOf="@+id/edt_price41" />
+
+    <Button
+        android:id="@+id/btn_update41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="120dp"
+        android:text="Update"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_des41" />
+
+    <Button
+        android:id="@+id/btn_delete41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:text="Delete"
+        app:layout_constraintStart_toEndOf="@+id/btn_update41"
+        app:layout_constraintTop_toTopOf="@+id/btn_update41" />
+
+    <TextView
+        android:id="@+id/tv_err"
+        android:layout_width="127dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/btn_update41"
+        app:layout_constraintTop_toBottomOf="@+id/btn_update41" />
+</androidx.constraintlayout.widget.ConstraintLayout>

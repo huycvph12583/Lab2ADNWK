@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lab6.lab6activity">
+
+    <Button
+        android:id="@+id/l6_btn_getdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="getData"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/l6_tv_getdata"
+        android:layout_width="342dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="88dp"
+        android:text="get Data String"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l6_btn_getdata" />
+
+    <TextView
+        android:id="@+id/l6_tv_json"
+        android:layout_width="299dp"
+        android:layout_height="181dp"
+        android:text="get Data Json"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l6_tv_getdata"
+        app:layout_constraintVertical_bias="0.288" />
+</androidx.constraintlayout.widget.ConstraintLayout>

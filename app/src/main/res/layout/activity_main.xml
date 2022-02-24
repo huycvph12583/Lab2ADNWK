@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+     android:textAlignment="center"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:text="Huycvph12583_Lab3"
+        android:textColor="#03A9F4"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="DEMO31" />
+    <Button
+        android:id="@+id/btn32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="DEMO32" />
+</LinearLayout>
